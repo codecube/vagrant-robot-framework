@@ -1,4 +1,4 @@
 .vagrant/
 src/
 
-!src/example/
+!.src/example/

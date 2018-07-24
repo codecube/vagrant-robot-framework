@@ -18,11 +18,24 @@ $ vagrant up
 $ vagrant ssh
 # Log into the VM
 
-$ vagrant ssh -c 'pybot src/path/to/your/test'
-# Run tests
+$ vagrant ssh -c 'pybot -d src src/example/example.robot'
+# Run example test
 
-$ vagrant ssh -c 'pybot src/path/to/your/test' -- -x
-# Run tests in headless mode
+$ vagrant ssh -c 'pybot -d src src/example/example.robot' -- -x
+# Run example test in headless mode
+
+$ vagrant ssh -c 'ride.py'
+# Open Ride
+
+$ vagrant ssh -c 'firefox'
+# Open Firefox
+
+$ vagrant ssh -c 'gedit'
+# Open Text Editor
+
+$ vagrant ssh -c 'nautilus'
+# Open File Browser
+
 ```
 
 ## What's Inside?
@@ -34,3 +47,9 @@ $ vagrant ssh -c 'pybot src/path/to/your/test' -- -x
  * Selenium2Library 1.6.0
  * Firefox
  * Xvfb
+ * wxgtk
+ * Geckodriver 0.21.0 - Firefox Selenium Web Driver
+ * RIDE - Robot IDE
+ * Gedit
+ * Nautilus - File Browser
+

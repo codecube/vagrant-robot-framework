@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+#set -e
 
-timedatectl set-timezone Asia/Chongqing
-locale --all-locales | fgrep zh_CN.utf8 > /dev/null || locale-gen zh_CN.utf8
+timedatectl set-timezone Europe/London
+locale --all-locales | fgrep "en_US.UTF-8" > /dev/null || locale-gen "en_US.UTF-8"

@@ -20,6 +20,7 @@ Search For Devops
 Result Should Contain Eficode
     Wait Until Page Contains    www.eficode.com    10 s
     Capture Page Screenshot
+    Close All Browsers
 
 Firefox Should Be Open
     Location Should Contain    www.google.com

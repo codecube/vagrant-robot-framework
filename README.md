@@ -40,11 +40,11 @@ $ vagrant ssh -c 'nautilus'
 
 ## What's Inside?
 
- * Python 2.7
+ * Python 3.6
  * pip
  * VirtualEnv
- * Robot Framework 2.8.6
- * Selenium2Library 1.6.0
+ * Robot Framework 3.1.2
+ * SeleniumLibrary 4.3.0
  * Firefox
  * Xvfb
  * wxgtk

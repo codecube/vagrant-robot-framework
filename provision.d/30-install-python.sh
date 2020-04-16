@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-LC_ALL=C DEBIAN_FRONTEND=noninteractive apt-get --force-yes -y install python2.7 python-pip python-wxgtk2.8 gedit nautilus-admin
+LC_ALL=C DEBIAN_FRONTEND=noninteractive apt-get --force-yes -y install python3.6 python-pip python-wxgtk2.8 gedit nautilus-admin
 
 pip install virtualenv
 su -lc /bin/bash $VAGRANT_USER <<EOF
